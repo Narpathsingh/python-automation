@@ -24,6 +24,7 @@ driver.get('https://en.wikipedia.org/wiki/Main_Page')
 
 search = driver.find_element(By.NAME, value='search')
 search.send_keys('python',Keys.ENTER)
+
 # search.send_keys('python')
 # # import keys class to tap in any keyboard keys
 
