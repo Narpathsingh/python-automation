@@ -28,11 +28,16 @@ button.click()
 
 # goto job portal
 jobportal = driver.get('https://unstop.com/job-portal')
-time.sleep(10)
-driveclick = driver.find_element(By.CSS_SELECTOR, value='.ng-star-inserted div')
-driveclick.click()
-print(driveclick.text)
-print(driveclick)
+time.sleep(5)
+post = driver.find_element(By.CSS_SELECTOR, value='.waves-effect')
+post.click()
+print(post.text)
+
+
+# login
+
+# driveclick = driver.find_element(By.CSS_SELECTOR, value='.ng-star-inserted div')
+# driveclick.click()
 # before quit
 # waittime = time.sleep(10)
 # to accept cookie
