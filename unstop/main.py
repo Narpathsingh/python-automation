@@ -45,5 +45,5 @@ print(post.text)
 # cookie = driver.find_element(By.CSS_SELECTOR, value='.GTM_ACCEPT_COOKIE')
 # print(cookie)
 
-# driver.quit()
+driver.quit()
 
